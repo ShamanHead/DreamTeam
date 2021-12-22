@@ -1,2 +1,4 @@
 # DreamTeam
-AMOGUS
+```C
+printf("Тут все, может чуть больше");
+```
