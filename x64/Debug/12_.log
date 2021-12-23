@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\ShamanHead\source\repos\DreamTeam\main.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\ShamanHead\source\repos\DreamTeam\main.cpp(32,5): warning C4551: в вызове функции отсутствует список аргументов
+  12_.vcxproj -> C:\Users\ShamanHead\source\repos\DreamTeam\x64\Debug\12_.exe
