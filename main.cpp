@@ -2,6 +2,7 @@
 #include "Calculator/Calculator.h"
 #include "Time/Time.h"
 #include "BinarySystem/BinarySystem.h"
+#include "Schedule/Schedule.h"
 
 void main() {
 	int choose = 0;
@@ -15,6 +16,7 @@ void main() {
 			"1. Вводите число, а вам программа выводит то же число, но по-другому\n"
 			"2. Просто показывает время\n"
 			"3. Считает циферки за вас\n"
+			"4. Показывает текущее расписание\n"
 			"-1. Выйти из шедевральной программы\n"
 		);
 		std::cin >> choose;
@@ -27,6 +29,9 @@ void main() {
 				break;
 			case 3:
 				calculate();
+				break;
+			case 4:
+				schedule();
 				break;
 			case -1:
 				exit;

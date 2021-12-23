@@ -142,11 +142,13 @@
     <ClCompile Include="BinarySystem\BinatySystem.cpp" />
     <ClCompile Include="Calculator\Calculator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Schedule\Schedule.cpp" />
     <ClCompile Include="Time\TIme.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySystem\BinarySystem.h" />
     <ClInclude Include="Calculator\Calculator.h" />
+    <ClInclude Include="Schedule\Schedule.h" />
     <ClInclude Include="Time\Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
